@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "name": "Hotel Splendid",
+            "description": "A luxurious escape in the heart of the city.",
+            "id": 1,
+            "img": "/img/hotel1.jpg"
+        },
+        {
+            "name": "Grand Plaza",
+            "description": "An elegant hotel with stunning views and excellent amenities.",
+            "id": 2,
+            "img": "/img/hotel2.jpg"
+        },
+        {
+            "name": "Seaside Resort",
+            "description": "A relaxing seaside resort perfect for vacations.",
+            "id": 3,
+            "img": "/img/hotel3.jpg"
+        },
+        {
+            "name": "Mountain Retreat",
+            "description": "A tranquil retreat located in the mountains.",
+            "id": 4,
+            "img": "/img/hotel4.jpg"
+        },
+        {
+            "name": "City Center Inn",
+            "description": "Conveniently located in the city center, ideal for business and leisure.",
+            "id": 5,
+            "img": "/img/hotel5.jpg"
+        }
+    ]
+}
