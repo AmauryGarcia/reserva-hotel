@@ -3,7 +3,7 @@ import { useRoute } from "wouter";
 import { Card, CardActions, CardContent, CardMedia, Stack, Typography } from "@mui/material";
 import BookingForm from "./BookingForm";
 const fetchHotel = async (id) => {
-  const res = await fetch(`http://localhost:3001/hotels/${id}`);
+  const res = await fetch(`http://hotels/${id}`);
   if (!res.ok) {
     throw new Error("Network response was not OK");
   }

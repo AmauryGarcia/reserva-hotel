@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
 
 const fetchHotels = async () => {
-    const res = await fetch("http://localhost:3001/hotels")
+    const res = await fetch("http://hotels")
     if (!res.ok) {
         throw new Error("Network response was not OK")
     }
